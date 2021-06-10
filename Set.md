@@ -1,9 +1,21 @@
 ## Set is an iterable element that comes between curly brackets{ } and cannot contain repeated elements
-* 배열의 핵심은 index이며, 이를 통해 삽입, 삭제, 갱신을 수행한다
-* 문자열 + 숫자는 문자열로 변환됨
+* set는 중복되는 데이터를 포함하지 않는다
 
 ```python
 my_set = {1,1,1,2,'e','e',2,3,3,3,3,3,3}
 
 my_set  # output: {1,2,3,'e'}
+```
+
+* set 기반의 list 중복제거 방법
+
+```python
+def remove_duplicates(input_list):
+  if len(input_list) == len(set(input_list)):
+    return "No duplicates"
+    
+  clean_list = list(set(input_list))
+  return clean_list
+
+remove_duplicates([1,2,3,4,4,5])
 ```
