@@ -4,7 +4,7 @@
 ```python
 my_set = {1,1,1,2,'e','e',2,3,3,3,3,3,3}
 
-my_set  # output: {1,2,3,'e'}
+my_set # output: {1,2,3,'e'}
 ```
 
 * set 기반의 list 중복제거 방법
