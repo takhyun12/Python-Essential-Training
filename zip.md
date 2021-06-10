@@ -2,20 +2,16 @@
 * zip will take two iterables and will create a tuple with each matching element in each one
 
 ```python
-my_set = {1,1,1,2,'e','e',2,3,3,3,3,3,3}
+list1 = ['a','b','c']
+list2 = [1, 2, 3]
 
-my_set # output: {1,2,3,'e'}
+zip(list1, list2) # return iterable object
+
+list(zip(list1, list2)) # use list type
+dict(zip(list1, list2)) # use dict type
 ```
 
-* set 기반의 list 중복제거 방법
-
+* Return index method
 ```python
-def remove_duplicates(input_list):
-  if len(input_list) == len(set(input_list)):
-    return "No duplicates"
-    
-  clean_list = list(set(input_list))
-  return clean_list
-
-remove_duplicates([1,2,3,4,4,5])
+[ i2 for i1, i2 in zip(list1, list2) if i1 =='b' ] # output : 2
 ```
