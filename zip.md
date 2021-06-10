@@ -1,5 +1,5 @@
 ## zip
-* set는 중복되는 데이터를 포함하지 않는다
+* zip will take two iterables and will create a tuple with each matching element in each one
 
 ```python
 my_set = {1,1,1,2,'e','e',2,3,3,3,3,3,3}
