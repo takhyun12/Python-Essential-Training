@@ -1,4 +1,4 @@
-## Set is an iterable element that comes between curly brackets{ } and cannot contain repeated elements
+## Set
 * set는 중복되는 데이터를 포함하지 않는다
 
 ```python
