@@ -6,5 +6,7 @@
 
 ## Table of Contents
 
-1. [set](https://github.com/takhyun12/JavaScript-Essential-Training/blob/main/Script%20async%20and%20defer.md)
+1. [set](https://github.com/takhyun12/Python-Essential-Training/blob/main/set.md)
+2. [d](https://github.com/takhyun12/Python-Essential-Training/blob/main/set.md)
+3. [set](https://github.com/takhyun12/Python-Essential-Training/blob/main/set.md)
 
