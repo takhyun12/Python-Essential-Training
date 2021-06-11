@@ -20,7 +20,7 @@ arr1, arr2 = [1,2,3], [4,5,6]
 result = arr1 + arr2
 ```
 
-* list.append()와 list.extend()를 통한 Merging
+* list.append()와 list.extend()를 통한 Merging의 
 ```python
 numbers1 = [1,2,3,4,5]
 numbers2 = [6,7,8,9,10]
