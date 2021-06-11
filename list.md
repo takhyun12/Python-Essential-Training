@@ -20,3 +20,9 @@ arr1, arr2 = [1,2,3], [4,5,6]
 result = arr1 + arr2
 ```
 
+* list.append()와 list.extend()를 통한 Merging
+```python
+number
+
+```
+
