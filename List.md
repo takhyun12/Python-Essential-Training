@@ -3,6 +3,7 @@
 * Java에 비해 Python은 매우 쉽게 병합이 가능함
 
 ```java
+// Java
 int[] arr1 = {1,2,3};
 int[] arr2 = {4,5,6};
 
@@ -14,6 +15,7 @@ System.arrayCopy(arr2, 0, resultArray, arr1Length, arr2Length);
 ```
 
 ```python
+# Python
 arr1, arr2 = [1,2,3], [4,5,6]
 result = arr1 + arr2
 ```
