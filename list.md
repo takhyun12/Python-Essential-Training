@@ -22,7 +22,15 @@ result = arr1 + arr2
 
 * list.append()와 list.extend()를 통한 Merging
 ```python
-number
+numbers1 = [1,2,3,4,5]
+numbers2 = [6,7,8,9,10]
 
+numbers1.append(numbers2)
+##### Output:
+[1, 2, 3, 4, 5, [6, 7, 8, 9, 10]]
+
+numbers1.extend(numbers2)
+##### Output:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 
