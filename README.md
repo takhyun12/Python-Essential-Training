@@ -10,3 +10,4 @@
 2. [set](https://github.com/takhyun12/Python-Essential-Training/blob/main/set.md)
 3. [zip](https://github.com/takhyun12/Python-Essential-Training/blob/main/zip.md)
 4. [string](https://github.com/takhyun12/Python-Essential-Training/blob/main/string.md)
+4. [list](https://github.com/takhyun12/Python-Essential-Training/blob/main/list.md)
