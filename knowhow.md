@@ -17,3 +17,10 @@ print(s1.sum(2, 3)) # 5
 print(s1.sum(1,1,1,1,1,1)) # 6
 ```
 
+## Use dir in Pandas
+* List the methods associated with an object in Python
+
+```python
+df = pd.DataFrame(data)
+dir(df)
+```
