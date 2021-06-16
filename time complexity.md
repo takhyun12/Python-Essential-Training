@@ -38,14 +38,14 @@
 | Pop	| set.pop() | O(1) | 랜덤하게 하나 pop |
 | Clear	| set.clear() | O(1) | similar to s = set() |
 | Construction	| set(...) | O(len(...)) | 데이터 길이에 비례 |
-| check ==, !=	| set != t | O(len(s)) | 전체 요소 동일 여부 확인 |
+| Compare	| set != t | O(len(s)) | 전체 데이터 동일 여부 확인 |
 | <=/<	| set <= t | O(len(s)) | 부분집합 여부 |
 | >=/>	| set >= t | O(len(t)) | 부분집합 여부 |
 | Union	| set, t | O(len(s)+len(t)) | 합집합 |
 | Intersection	| set & t | O(len(s)+len(t)) | 교집합 |
 | Difference	| set - t | O(len(s)+len(t)) | 차집합 |
 | Symmetric	| Diff	s ^ t | O(len(s)+len(t)) | 여집합 |
-| Iteration	| for i in set: | O(N) | 전체 요소 순회 |
+| Iteration	| for i in set: | O(N) | 전체 데이터 순회 |
 | Copy	| s.copy() | O(N) | 복제 |
 ---
 
