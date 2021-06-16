@@ -61,3 +61,6 @@
 | View | d.keys() | O(1) | same for d.values() / 키값 전체 확인 |
 | Construction | dict(...) | O(len(...)) | (key, value) 튜플 개수만큼 |
 | Iteration | for i in dict: | O(N) | 전체 데이터 순회 |
+
+### Summary: 자료형에 따른 시간 복잡도 비교
+* 삽입, 제거, 탐색, 확인 등에서는 Set나 Dictionary가 효과적이며, 순서와 index에 따른 접근이라면 List도 괜찮다.
