@@ -25,7 +25,7 @@
 | Reverse | list.reverse() | O(N) | 리스트 뒤집기 |
 | Iteration | for i in list | O(N) | 전체 데이터를 순회 |
 | Sort | list.sort() | O(N Log N) | 파이썬 기본 정렬 |
-| Multiply | k * list | O(k N) | 리스트의 곱셈 |
+| Multiply | k * list | O(k N) | 리스트의 갯수 곱셈 |
 ---
 
 
