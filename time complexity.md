@@ -1,3 +1,6 @@
+## References
+* [Time Complexity](https://github.com/takhyun12/Algorithm-Essential-Training/blob/main/time%20complexity.md)
+
 ## Time complexity in Python
 
 ### List 자료형과 기본 메소드
