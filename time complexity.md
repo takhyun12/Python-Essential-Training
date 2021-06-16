@@ -45,7 +45,7 @@
 | Intersection	| set & t | O(len(s)+len(t)) | 교집합 |
 | Difference	| set - t | O(len(s)+len(t)) | 차집합 |
 | Symmetric	| Diff	s ^ t | O(len(s)+len(t)) | 여집합 |
-| Iteration	| for v in s: | O(N) | 전체 요소 순회 |
+| Iteration	| for i in set: | O(N) | 전체 요소 순회 |
 | Copy	| s.copy() | O(N) | 복제 |
 ---
 
