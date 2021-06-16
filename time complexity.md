@@ -14,7 +14,7 @@
 | Slice | list[a:b] | O(b-a) | 슬라이싱 되는 요소의 수에 비례 |
 | Extend | list.extend(i) | O(len(i)) | 확장되는 길이에 비례 |
 | Construction | list(...) | O(len(...)) | 데이터의 길이에 비례 |
-| Compare | list1 == list2 | O(N) | 전체 리스트가 동일한지 확인 |
+| Compare | list1 == list2 | O(N) | 두 리스트가 동일한지 확인 |
 | Insert | list[a:b] = ... | O(N) | 데이터 삽입 |
 | Delete | del list[i] | O(N) | 데이터 삭제 |
 | Containment | x in, not in | O(N) | 데이터 포함 여부 확인 |
