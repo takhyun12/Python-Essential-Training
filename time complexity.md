@@ -18,7 +18,7 @@
 | Insert | list[a:b] = ... | O(N) | 데이터 삽입 |
 | Delete | del list[i] | O(N) | 데이터 삭제 |
 | Containment | x in, not in | O(N) | 데이터 포함 여부 확인 |
-| Copy | list.copy() | O(N)) | 리스트 복제 |
+| Copy | list.copy() | O(N) | 리스트 복제 |
 | Remove | list.remove(...) | O(N) | 데이터 제거 |
 | Pop(i) | list.pop(i) | O(N) | 제거 된 이후 값을 shift 함 |
 | Extreme value | min(i), max(i) | O(N) | 전체 데이터를 확인 |
