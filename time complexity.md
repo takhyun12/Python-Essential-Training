@@ -1,6 +1,6 @@
 ## Time complexity in Python
 
-### Time complexity of List
+### List
 * MS 엑셀의 함수 MID와 유사하게 동작하며, 문자열을 검사하여 boolean으로 return
 
 ```python
