@@ -5,7 +5,7 @@
 
 | Operation | Example | Big-O | Notes |
 |---|---|---|---|
-| Index | list[i] | O(1) | 인덱스로 값 찾기
+| Index | list[i] | O(1) | 인덱스로 값 찾기 |
 ---
 
 
