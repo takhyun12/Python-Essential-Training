@@ -63,4 +63,4 @@
 | Iteration | for i in dict: | O(N) | 전체 데이터 순회 |
 
 ### Summary: 자료형에 따른 시간 복잡도 비교
-* 삽입, 제거, 탐색, 확인 등에서는 Set나 Dictionary가 효과적이며, 순서와 index에 따른 접근이라면 List도 괜찮다.
+* 삽입, 제거, 탐색, 확인 등에서는 Set나 Dictionary가 효과적이며, 순서와 index에 따른 접근이라면 List도 나쁘지 않다
