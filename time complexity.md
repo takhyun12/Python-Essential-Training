@@ -53,7 +53,7 @@
 |---|---|---|---|
 | Store	| d[k] = v | O(1) | 데이터 저장 |
 | Length | len(d) | O(1) | 길이 출력 |
-| Delete| del d[k] | O(1) | 요소 제거 |
+| Delete| del d[k] | O(1) | 데이터 제거 |
 | Get/Set |	d.get(k) | O(1) | key에 따른 value 확인 |
 | Pop(i) | d.pop(k) | O(1) | pop |
 | Pop item | d.popitem() | O(1) | 랜덤하게 선택해서 pop |
