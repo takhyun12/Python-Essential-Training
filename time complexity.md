@@ -49,3 +49,15 @@
 
 ### Dictionary 자료형과 기본 메소드
 
+| Operation | Example | Big-O | Notes |
+|---|---|---|---|
+| Store	| d[k] = v | O(1) | 데이터 저장 |
+| Length | len(d) | O(1) | 길이 출력 |
+| Delete| del d[k] | O(1) | 요소 제거 |
+| Get/Set |	d.get(k) | O(1) | key에 따른 value 확인 |
+| Pop(i) | d.pop(k) | O(1) | pop |
+| Pop item | d.popitem() | O(1) | 랜덤하게 선택해서 pop |
+| Clear | d.clear() | O(1) | similar to s = {} or = dict() |
+| View | d.keys() | O(1) | same for d.values() / 키값 전체 확인 |
+| Construction | dict(...) | O(len(...)) | (key, value) 튜플 개수만큼 |
+| Iteration | for i in dict: | O(N) | 전체 데이터 순회 |
