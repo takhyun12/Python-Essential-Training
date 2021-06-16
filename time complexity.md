@@ -46,5 +46,6 @@
 | Symmetric	| Diff	s ^ t | O(len(s)+len(t)) | 여집합 |
 | Iteration	| for i in set: | O(N) | 전체 데이터 순회 |
 | Copy	| s.copy() | O(N) | 복제 |
----
+
+### Dictionary 자료형과 기본 메소드
 
