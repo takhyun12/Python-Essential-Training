@@ -1,7 +1,6 @@
 ## Time complexity in Python
 
 ### List 자료형과 기본 메소드
-* MS 엑셀의 함수 MID와 유사하게 동작하며, 문자열을 검사하여 boolean으로 return
 
 | Operation | Example | Big-O | Notes |
 |---|---|---|---|
@@ -28,5 +27,25 @@
 | Multiply | k * list | O(k N) | 리스트의 갯수 곱셈 |
 ---
 
+### Set 자료형과 기본 메소드
 
+| Operation | Example | Big-O | Notes |
+|---|---|---|---|
+| Add	| set.add(5) | O(1) | 집합 요소 추가 |
+| Containment	| x in/not in set | O(1)	| 포함 여부 확인 |
+| Remove	| set.remove(..) | O(1)	| 데이터 제거 |
+| Discard	| set.discard(..) | O(1) | 특정 데이터 제거 |
+| Pop	| set.pop() | O(1) | 랜덤하게 하나 pop |
+| Clear	| set.clear() | O(1) | similar to s = set() |
+| Construction	| set(...) | O(len(...)) | 데이터 길이에 비례 |
+| check ==, !=	| set != t | O(len(s)) | 전체 요소 동일 여부 확인 |
+| <=/<	| set <= t | O(len(s)) | 부분집합 여부 |
+| >=/>	| set >= t | O(len(t)) | 부분집합 여부 |
+| Union	| set, t | O(len(s)+len(t)) | 합집합 |
+| Intersection	| set & t | O(len(s)+len(t)) | 교집합 |
+| Difference	| set - t | O(len(s)+len(t)) | 차집합 |
+| Symmetric	| Diff	s ^ t | O(len(s)+len(t)) | 여집합 |
+| Iteration	| for v in s: | O(N) | 전체 요소 순회 |
+| Copy	| s.copy() | O(N) | 복제 |
+---
 
