@@ -25,7 +25,6 @@
 | Iteration | for i in list | O(N) | 전체 데이터를 순회 |
 | Sort | list.sort() | O(N Log N) | 파이썬 기본 정렬 |
 | Multiply | k * list | O(k N) | 리스트의 갯수 곱셈 |
----
 
 ### Set 자료형과 기본 메소드
 
