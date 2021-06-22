@@ -14,21 +14,19 @@ print(add(10, 20))
 
 ### Usage:
 
-* Python style
+* Python style과 Lambda Style의 비교
 
 ```python
 def double(x):
   return x*2
 ```
 
-* Lambda style
-
 ```python
 num = lambda x: x*2
 print(num(10))
 ```
 
-#### 리스트에서의 사용
+* List 정렬에서의 활용방법
 
 ```python
 target = ['cat', 'tiger', 'dog', 'snake']
