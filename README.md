@@ -12,3 +12,4 @@
 4. [string](https://github.com/takhyun12/Python-Essential-Training/blob/main/string.md)
 5. [list](https://github.com/takhyun12/Python-Essential-Training/blob/main/list.md)
 6. [time complexity](https://github.com/takhyun12/Python-Essential-Training/blob/main/time%20complexity.md)
+7. [itertools](https://github.com/takhyun12/Python-Essential-Training/blob/main/itertools.md)
