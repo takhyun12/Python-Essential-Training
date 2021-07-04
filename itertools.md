@@ -15,6 +15,19 @@ itertools.product('ABCD', repeat=2)
 # 결과: AA AB AC AD BA BB BC BD CA CB CC CD DA DB DC DD
 ```
 
+```python
+def sample(target: str) -> int:
+    items = ['A', 'B', 'C', 'D', 'E']
+    iter_arr = list()
+    for i in range(1, len(items) + 1):
+        iter_arr.extend(list(map(''.join, itertools.product(items, repeat=i))))
+    iter_arr.sort()
+    
+# 결과 : ['A', 'AA', 'AAA', 'AAAA', 'AAAAA', 'AAAAB', 'AAAAC', 'AAAAD', 'AAAAE', 'AAAB', 'AAABA', ... 'EEEEE']
+```
+
+---
+
 #### permutations()
 
 * 가능한 모든 순서, 반복 X
@@ -25,6 +38,8 @@ itertools.permutations('ABCD', 2)
 
 # 결과: AB AC AD BA BC BD CA CB CD DA DB DC
 ```
+
+---
 
 #### combinations()
 
@@ -37,7 +52,7 @@ itertools.combinations('ABCD', 2)
 # 결과: AB AC AD BC BD CD
 ```
 
-* 반복되지 않는 정렬된 
+* 반복되지 않는 정렬된 순서의 예시
 
 ```python
 def sample(s: str, k: int) -> int:
@@ -45,6 +60,8 @@ def sample(s: str, k: int) -> int:
     words.sort(reverse=True)
     return "".join(words[0])
 ```
+
+---
 
 #### combinations_with_replacement()
 
