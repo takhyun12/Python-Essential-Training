@@ -37,6 +37,15 @@ itertools.combinations('ABCD', 2)
 # 결과: AB AC AD BC BD CD
 ```
 
+* 반복되지 않는 정렬된 
+
+```python
+def sample(s: str, k: int) -> int:
+    words = list(itertools.combinations(s, k))
+    words.sort(reverse=True)
+    return "".join(words[0])
+```
+
 #### combinations_with_replacement()
 
 * 정렬된 순서, 반복 O
