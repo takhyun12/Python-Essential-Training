@@ -1,4 +1,4 @@
-# Pytorch Essential Training note
+# Pytorch essential training note
 
 * references : https://teamsparta.notion.site/Pytorch-1-7669d355f573451cbf5ebfeb74c584e7#3f0f21ddd7544decaa01385c0dfb90fb
 
