@@ -24,4 +24,29 @@
 
 ![tangent line](https://user-images.githubusercontent.com/41291493/134908691-67509715-a7d1-4317-a357-16aecb8266b6.png)
 
+ ### 스칼라(Scalar)
  
+* 스칼라(Scalar)는 하나의 상수를 의미합니다. `var1 = torch.tensor([1])`
+
+* add, sub, mul, div `torch.add(var1, var2)`
+
+###  벡터(Vector)
+
+* 벡터(Vector)는 상수가 두 개 이상 나열된 자료구조이다. `vector1 = torch.tensor([1, 2, 3])`
+
+* N 차원 벡터라고 부른다면 여기서 N은 벡터 안에 숫자가 몇 개있는지를 의미합니다.
+
+* 내적 연산(dot product) `torch.dot(vector1, vector2)`
+
+* a1 x b1 + a2 x b2 + a3 x b3를 우리는 벡터의 내적이라고 합니다.
+
+### 행렬(Matrix)
+
+* 행렬(Matrix)는 2개 이상의 벡터 값을 가지고 만들어진 값으로 행과 열의 개념을 가진 숫자의 나열입니다.
+
+* `matrix1 = torch.tensor([[1, 2], [3, 4]])`
+
+* 행렬의 곱셈 `torch.matmul(matrix1, matrix2)`
+
+![tensor](https://user-images.githubusercontent.com/41291493/135062903-0186068f-6035-46ab-a6d9-9eebe1dd6d38.png)
+
