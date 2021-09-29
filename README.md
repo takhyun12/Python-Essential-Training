@@ -14,3 +14,4 @@
 6. [time complexity](https://github.com/takhyun12/Python-Essential-Training/blob/main/time%20complexity.md)
 7. [itertools](https://github.com/takhyun12/Python-Essential-Training/blob/main/itertools.md)
 8. [numpy](https://github.com/takhyun12/Python-Essential-Training/blob/main/np.md)
+9. [pytorch](https://github.com/takhyun12/Python-Essential-Training/blob/main/pytorch.md)
