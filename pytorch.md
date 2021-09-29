@@ -84,3 +84,23 @@
 
 * 학습률(learning rate)이 너무 크거나 작으면 학습에 문제가 발생한다
 
+### 선형 회귀(Linear Regression) 코드
+
+* weight와 bias를 0으로 초기화하고 학습을 통해 값이 변경되는 변수임을 명시
+
+``` python
+W = torch.zeros(1, requires_grad=True)
+b = torch.zeros(1, requires_grad=True)
+```
+
+* 평균 구하기 : `torch.mean`
+
+* 경사 하강법 :
+
+``` python
+optimizer = optim.SGD([W, b], lr=0.01)
+optimizer.zero_grad()
+cost.backward() # 미분하여 gradient 계산
+optimizer.step() # W와 b를 업데이트
+```
+
