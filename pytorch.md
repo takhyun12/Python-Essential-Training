@@ -104,3 +104,56 @@ cost.backward() # 미분하여 gradient 계산
 optimizer.step() # W와 b를 업데이트
 ```
 
+### 다중 선형 회귀(Linear Regression) 코드
+
+* 독립 변수 x가 1개인 경우에는 단순 선형 회귀
+
+* 독립 변수 x가 2개 이상인 경우를 우리는 다중 선형 회귀
+
+* learning rate : 10의 -5승 `1e-5`
+
+* 행렬 곱셈 연산(벡터의 내적) `Dot Product`를 통해 독립변수의 갯수가 많은 연산 처리 
+
+![dot](https://user-images.githubusercontent.com/41291493/135399808-504e141f-52dd-4aa7-9e2e-cac5fc01d85d.PNG)
+
+* 5x3 matrix 예시 `H(X) = XW + B`
+
+``` python
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import torch.optim as optim
+
+torch.manual_seed(1)
+
+x_train = torch.FloatTensor([[73,  80,  75],
+                               [93,  88,  93],
+                               [89,  91,  80],
+                               [96,  98,  100],
+                               [73,  66,  70]])
+y_train = torch.FloatTensor([[152],  [185],  [180],  [196],  [142]])
+
+# 가중치와 편향 선언
+W = torch.zeros((3, 1), requires_grad=True)
+b = torch.zeros(1, requires_grad=True)
+
+# 행렬 곱셈
+hypothesis = x_train.matmul(W) + b
+
+
+# cost 계산
+cost = torch.mean((hypothesis - y_train) ** 2)
+```
+
+* Pytorch 기본함수 사용버전 (선형회귀) `nn.Linear()`
+
+``` python
+x_train = torch.FloatTensor([[1], [2], [3]])
+y_train = torch.FloatTensor([[2], [4], [6]])
+
+model = nn.Linear(3,1) # input 1, ouput 1
+optimizer = torch.optim.SGD(model.parameters(), lr=1e-5)
+prediction = model(x_train)
+cost = F.mse_loss(prediction, y_train)
+```
+
